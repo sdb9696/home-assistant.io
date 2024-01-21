@@ -1,5 +1,5 @@
 ---
-title: TP-Link Kasa Smart
+title: TP-Link Smart Home
 description: Instructions on integrating TP-Link Smart Home Devices to Home Assistant.
 ha_category:
   - Hub
@@ -24,7 +24,7 @@ ha_quality_scale: platinum
 ha_integration_type: integration
 ---
 
-The `tplink` integration allows you to control your [TP-Link Smart Home Devices](https://www.tp-link.com/kasa-smart/) such as plugs, power strips, wall switches and bulbs.
+The `tplink` integration allows you to control your [TP-Link Kasa Smart Home Devices](https://www.tp-link.com/kasa-smart/) and [TP-Link Tapo Devices](https://www.tapo.com/) such as plugs, power strips, wall switches and bulbs.
 
 You need to provision your newly purchased device to connect to your network before it can be added via the integration. This can be done either by using [kasa command-line tool](https://python-kasa.readthedocs.io/en/latest/cli.html#provisioning) or by adding it to the official Kasa app before trying to add them to Home Assistant. If you use the app, do not upgrade the firmware if it presents the option to avoid blocking the local access by potential firmware updates.
 
@@ -55,7 +55,7 @@ See [Supported Devices in python-kasa](https://github.com/python-kasa/python-kas
 - KP125
 - KP401
 - EP10
-- EP25 (HW versions 2.5 and earlier)
+- EP25
 
 ### Power Strips
 
